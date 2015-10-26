@@ -13,7 +13,6 @@
 
 #include <boost/spirit/home/support/char_set/range_functions.hpp>
 #include <boost/assert.hpp>
-#include <boost/integer_traits.hpp>
 #include <algorithm>
 
 namespace boost { namespace spirit { namespace support { namespace detail

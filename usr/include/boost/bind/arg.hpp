@@ -34,7 +34,7 @@ template< int I > struct arg
 
     template< class T > arg( T const & /* t */ )
     {
-	BOOST_STATIC_ASSERT(I == is_placeholder<T>::value);
+        BOOST_STATIC_ASSERT( I == is_placeholder<T>::value );
     }
 };
 
